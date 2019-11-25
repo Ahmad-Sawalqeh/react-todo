@@ -21,7 +21,7 @@ function TodoForm(props) {
   };
 
   return (
-    <div>
+    <div className="addForm">
       <h3>Add Item</h3>
       <Form
         schema={schema}

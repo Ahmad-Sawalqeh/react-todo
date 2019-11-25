@@ -5,6 +5,19 @@ body, html {
     width: 100%;
 }
 
+header {
+  background: #555;
+  color: #f5f5f5;
+  padding: 2em;
+}
+
+.addForm {
+  background: #f5f5f5;
+  box-shadow: 3px 3px 5px 6px #6c757d;
+  margin: 1em;
+  padding: 1em;
+}
+
 .trash {
     position:absolute;
     bottom: 2em;
@@ -76,7 +89,7 @@ body, html {
             align-items: center;
             display:flex;
             flex-direction:row;
-            font-size: .75em;
+
             margin: .75em .5em;
 
             &.complete-true {
@@ -99,7 +112,7 @@ body, html {
              span, input {
                  border: .5px solid #eee;
                  display:inline-block;
-                 padding: .2em .25em;
+                 padding: .5em 1em;
                  width: 300px;
              }
 
